@@ -1,0 +1,396 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+a {
+    text-decoration: none;
+}
+
+.heder {
+    min-height: 75px;
+    background: #222222;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.heder_left {
+    display: flex;
+    align-items: center;
+    gap: 41px;
+}
+
+.heder_right {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+.heder_text {
+    min-height: 148px;
+    background: #F8F3F4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 11px;
+}
+
+.h1_heder_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+}
+
+.h3_heder_text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+}
+
+.heder_text__h3__span {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+}
+
+.top_fon {
+    background: #F7F7F7;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_btn_left {
+    display: flex;
+    align-items: center;
+}
+
+.top_btn_right {
+    display: flex;
+    align-items: center;
+}
+
+.main_ramca {
+    border: 1px solid #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    margin-bottom: 130px;
+}
+
+.h2_main {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    margin-top: 65px;
+}
+
+.h1_main {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+}
+
+.p_main {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    max-width: 555px;
+}
+
+.price {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #EF5B70;
+    margin-bottom: 65px;
+}
+
+
+.border_main {
+    border-bottom: 3px solid #EF5B70;
+    width: 63px;
+}
+
+.border_bottom_main {
+    border: 1px solid #EAEAEA;
+    width: 641px;
+    margin-bottom: 65px;
+}
+
+.main_menu {
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.main_menu_text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main_menu_h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+}
+
+.menu_btn {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F26376;
+    display: flex;
+    align-items: center;
+    padding: 14px 23px;
+    background: #FFFFFF;
+    border: 1px solid #F26376;
+    margin-bottom: 65px;
+}
+
+.menu_btn_img {
+    margin-right: 23px;
+}
+
+.catalog {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-bottom: 128px;
+}
+
+.catalog_cartochca {
+    background: #F8F8F8;
+    max-width: 360px;
+    position: relative;
+}
+
+.cart_1:hover .cartochca_img_1 {
+    filter: brightness(0.5);
+    box-shadow: 0 0 20px #cc66ff;
+}
+
+
+
+.cartochca_img_1:hover+.corzina {
+    display: flex;
+}
+
+.cart_2:hover .cartochca_img_2 {
+    filter: brightness(0.5);
+    box-shadow: 0 0 20px #cc66ff;
+}
+
+.cartochca_img_2:hover+.corzina {
+    display: flex;
+}
+
+.cart_3:hover .cartochca_img_3 {
+    filter: brightness(0.5);
+    box-shadow: 0 0 20px #cc66ff;
+}
+
+
+
+.cartochca_img_3:hover+.corzina {
+    display: flex;
+}
+
+
+.corzina {
+    display: none;
+    position: absolute;
+    top: 188px;
+    left: 111px;
+    border: 1px solid #ffffff;
+    padding: 0 13px;
+}
+
+.corzina:hover {
+    display: flex;
+    box-shadow: 0 0 20px #F16D7F;
+}
+
+.corzina_a {
+    display: flex;
+    align-items: center;
+}
+
+.corzina_foto {
+    margin-right: 11px;
+}
+
+.corzina_p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.cartochca_text {
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.cartochca_h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.cartochca_p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+
+.cartochca_price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F;
+}
+
+.test_video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.footer_fon {
+    background-image: url(img/footer_fon2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer_middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 448px;
+}
+
+.footer_madam {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+}
+
+.text_footer_middle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+
+}
+
+.h2_footer_middle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+    margin-bottom: 0;
+}
+
+.h3_footer_middle {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.2%;
+    text-align: center;
+    color: #222224;
+    margin-top: 0;
+}
+
+.form_footer {
+    width: 557px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_pochta {
+    background: #E1E1E1;
+    border: 1px solid #E1E1E1;
+    border-radius: 30px 0 0 30px;
+    width: 256px;
+    height: 45px;
+
+}
+
+.footer_cnop {
+    background: #F16D7F;
+    border: 1px solid #F16D7F;
+    width: 100px;
+    height: 48px;
+    border-radius: 0 30px 30px 0;
+}
+
+.footer_bottom_fon {
+    background-color: #000000;
+}
+
+.footer_bottom {
+    min-height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.url_a {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 8px 10px;
+}
+
+.url_inst {
+    background: #F16D7F;
+    border: 1px solid #F16D7F;
+    padding: 8px 10px;
+}
+
+.prava {
+    color: #FBFBFB;
+}

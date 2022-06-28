@@ -90,6 +90,7 @@ a {
 .menu {
     display: flex;
     justify-content: center;
+    margin-bottom: 65px;
 }
 
 .now_size_price {
