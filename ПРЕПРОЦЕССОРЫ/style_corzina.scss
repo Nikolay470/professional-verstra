@@ -11,6 +11,26 @@ a {
     text-decoration: none;
 }
 
+@keyframes animcnop {
+    20% {
+        transform: rotate(-15deg);
+    }
+
+    40% {
+        transform: rotate(15deg);
+    }
+
+    60% {
+        transform: rotate(-15deg);
+    }
+
+    80% {
+        transform: rotate(15deg);
+    }
+}
+
+$colorSyte:  #F16D7F; 
+
 .heder {
     min-height: 75px;
     background: #222222;
@@ -30,6 +50,15 @@ a {
         align-items: center;
         gap: 33px;
     }
+
+    .heder_nav {
+        transition: all 0.2s;
+        transition-delay: 0.2s;
+    }
+
+    .heder_nav:hover {
+        transform: scale(1.2);
+    }
 }
 
 .heder_text {
@@ -44,7 +73,7 @@ a {
         font-style: normal;
         font-weight: 400;
         line-height: 29px;
-        color: #F16D7F;
+        color: $colorSyte;
     }
 }
 
@@ -135,6 +164,13 @@ a {
             border: 1px solid #A4A4A4;
             width: 360px;
             height: 42px;
+            transition: all 0.2s;
+            transition-delay: 0.2s;
+        }
+
+        .input:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 5px 5px $colorSyte;
         }
 
         .forma_btn {
@@ -148,6 +184,12 @@ a {
             background-color: #ffffff;
             border: 1px solid #A4A4A4;
             margin-bottom: 57px;
+            transition: all 0.1s;
+            transition-delay: 0.1s;
+        }
+
+        .forma_btn:hover {
+            background-color: $colorSyte;
         }
 
         .forma_raschet {
@@ -197,15 +239,21 @@ a {
         }
 
         .forma_raschet_btn {
-            background: #F16D7F;
+            background: $colorSyte;
             width: 273px;
             height: 50px;
-            border: 1px solid #F16D7F;
+            border: 1px solid $colorSyte;
             font-style: normal;
             font-weight: 300;
             font-size: 16px;
             line-height: 19px;
             color: #FFFFFF;
+            transition: all 0.1s;
+            transition-delay: 0.1s;
+        }
+
+        .forma_raschet_btn:hover {
+            background-color: #00cc00;
         }
 
     }
@@ -216,7 +264,7 @@ a {
         justify-content: space-between;
         margin-bottom: 128px;
 
-        .main_bottom_btn {
+        .main_bottom_btn-left {
             width: 234px;
             height: 49px;
             background-color: #ffffff;
@@ -226,7 +274,33 @@ a {
             font-size: 14px;
             line-height: 17px;
             color: #000000;
+            transition: all 0.1s;
+            transition-delay: 0.1s;
         }
+
+        .main_bottom_btn-right {
+            width: 234px;
+            height: 49px;
+            background-color: #ffffff;
+            border: 1px solid #A4A4A4;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
+            color: #000000;
+            transition: all 0.1s;
+            transition-delay: 0.1s;
+        }
+
+
+        .main_bottom_btn-left:hover {
+            box-shadow: 0 0 5px 5px $colorSyte;
+        }
+
+        .main_bottom_btn-right:hover {
+            box-shadow: 0 0 5px 5px #00cc00; 
+        }
+
     }
 
 }
@@ -306,24 +380,32 @@ a {
 }
 
 .footer_cnop {
-    background: #F16D7F;
-    border: 1px solid #F16D7F;
+    background: $colorSyte;
+    border: 1px solid $colorSyte;
     width: 100px;
     height: 48px;
     border-radius: 0 30px 30px 0;
+    transition: all 0.1s;
+    transition-delay: 0.1s;
+}
+
+.footer_cnop:hover {
+    background-color: #00cc00;
 }
 
 .url_a {
     background-color: #ffffff;
     border: 1px solid #ffffff;
     padding: 8px 10px;
+    transition: all 0.1s;
+    transition-delay: 0.1s;
 }
 
-.url_inst {
-    background: #F16D7F;
-    border: 1px solid #F16D7F;
-    padding: 8px 10px;
+.url_a:hover {
+    background-color: $colorSyte;
 }
+
+
 
 .prava {
     color: #FBFBFB;
