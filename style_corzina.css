@@ -11,6 +11,35 @@ a {
   text-decoration: none;
 }
 
+@-webkit-keyframes animcnop {
+  20% {
+    transform: rotate(-15deg);
+  }
+  40% {
+    transform: rotate(15deg);
+  }
+  60% {
+    transform: rotate(-15deg);
+  }
+  80% {
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes animcnop {
+  20% {
+    transform: rotate(-15deg);
+  }
+  40% {
+    transform: rotate(15deg);
+  }
+  60% {
+    transform: rotate(-15deg);
+  }
+  80% {
+    transform: rotate(15deg);
+  }
+}
 .heder {
   min-height: 75px;
   background: #222222;
@@ -28,6 +57,13 @@ a {
   display: flex;
   align-items: center;
   gap: 33px;
+}
+.heder .heder_nav {
+  transition: all 0.2s;
+  transition-delay: 0.2s;
+}
+.heder .heder_nav:hover {
+  transform: scale(1.2);
 }
 
 .heder_text {
@@ -122,6 +158,12 @@ a {
   border: 1px solid #A4A4A4;
   width: 360px;
   height: 42px;
+  transition: all 0.2s;
+  transition-delay: 0.2s;
+}
+.main .forma .input:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 5px 5px #F16D7F;
 }
 .main .forma .forma_btn {
   font-style: normal;
@@ -134,6 +176,11 @@ a {
   background-color: #ffffff;
   border: 1px solid #A4A4A4;
   margin-bottom: 57px;
+  transition: all 0.1s;
+  transition-delay: 0.1s;
+}
+.main .forma .forma_btn:hover {
+  background-color: #F16D7F;
 }
 .main .forma .forma_raschet {
   width: 360px;
@@ -185,6 +232,11 @@ a {
   font-size: 16px;
   line-height: 19px;
   color: #FFFFFF;
+  transition: all 0.1s;
+  transition-delay: 0.1s;
+}
+.main .forma .forma_raschet_btn:hover {
+  background-color: #00cc00;
 }
 .main .main_bottom {
   width: 552px;
@@ -192,7 +244,7 @@ a {
   justify-content: space-between;
   margin-bottom: 128px;
 }
-.main .main_bottom .main_bottom_btn {
+.main .main_bottom .main_bottom_btn-left {
   width: 234px;
   height: 49px;
   background-color: #ffffff;
@@ -202,6 +254,27 @@ a {
   font-size: 14px;
   line-height: 17px;
   color: #000000;
+  transition: all 0.1s;
+  transition-delay: 0.1s;
+}
+.main .main_bottom .main_bottom_btn-right {
+  width: 234px;
+  height: 49px;
+  background-color: #ffffff;
+  border: 1px solid #A4A4A4;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  transition: all 0.1s;
+  transition-delay: 0.1s;
+}
+.main .main_bottom .main_bottom_btn-left:hover {
+  box-shadow: 0 0 5px 5px #F16D7F;
+}
+.main .main_bottom .main_bottom_btn-right:hover {
+  box-shadow: 0 0 5px 5px #00cc00;
 }
 
 .footer_fon {
@@ -279,20 +352,26 @@ a {
   width: 100px;
   height: 48px;
   border-radius: 0 30px 30px 0;
+  transition: all 0.1s;
+  transition-delay: 0.1s;
+}
+
+.footer_cnop:hover {
+  background-color: #00cc00;
 }
 
 .url_a {
   background-color: #ffffff;
   border: 1px solid #ffffff;
   padding: 8px 10px;
+  transition: all 0.1s;
+  transition-delay: 0.1s;
 }
 
-.url_inst {
-  background: #F16D7F;
-  border: 1px solid #F16D7F;
-  padding: 8px 10px;
+.url_a:hover {
+  background-color: #F16D7F;
 }
 
 .prava {
   color: #FBFBFB;
-}/*# sourceMappingURL=style_corzina.css.map */
+}
