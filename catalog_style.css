@@ -12,6 +12,16 @@ a {
   color: #ccc;
 }
 
+.menu__price, .menu__size, .menu__now {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+}
+
 @-webkit-keyframes animcnop {
   20% {
     transform: rotate(-15deg);
@@ -107,7 +117,10 @@ a {
 }
 
 .filter {
-  position: absolute;
+  position: relative;
+  width: 80px;
+  display: inline-block;
+  margin-right: 340px;
 }
 
 .filter__h3__img {
@@ -120,12 +133,87 @@ a {
   font-size: 14px;
   line-height: 17px;
   color: #000000;
+  margin: 0;
+  width: 80px;
+}
+
+.filter:hover .filter_spisok {
+  display: block;
+}
+
+.filter_spisok {
+  display: none;
+  width: 360px;
+  height: auto;
+  border: 1px solid #EBEBEB;
+  box-shadow: 0 0 15px 15px #EBEBEB;
+  padding: 16px;
+  position: absolute;
+  z-index: 1000;
+  background-color: #ffffff;
+  margin: 0;
+}
+.filter_spisok .filter_spisok:hover {
+  display: block;
+}
+.filter_spisok .razdel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  height: 37px;
+}
+.filter_spisok .razdel .border {
+  border-left: 1px solid #EF5B70;
+  border-width: 5px;
+  height: 37px;
+  margin-right: 11px;
+}
+.filter_spisok .razdel .spisok_a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  transition: all 0.1s;
+  transition-delay: 0.1s;
+}
+.filter_spisok .razdel .spisok_a:hover {
+  color: #EF5B70;
+}
+.filter_spisok .razdel .spisok_a:hover .category_list {
+  display: block;
+}
+.filter_spisok hr {
+  border: 1px solid #EBEBEB;
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+.filter_spisok .category_list {
+  display: block;
+  list-style-type: none;
+}
+.filter_spisok .category_list li {
+  margin-bottom: 11px;
+}
+.filter_spisok .category_list li .nav {
+  display: block;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6F6E6E;
+  transition: all 0.1s;
+  transition-delay: 0.1s;
+}
+.filter_spisok .category_list .nav:hover {
+  margin-left: 10px;
+  color: #EF5B70;
 }
 
 .menu {
-  display: flex;
-  justify-content: center;
+  display: inline-block;
   margin-bottom: 65px;
+  position: relative;
 }
 
 .now_size_price {
@@ -137,14 +225,54 @@ a {
   margin-left: 10px;
 }
 
-.now_size_price__h3 {
+.menu__now {
+  margin-top: 0;
+}
+
+.menu__size {
+  margin-top: 0;
+}
+
+.menu__price {
+  margin-top: 0;
+}
+
+.menu__size:hover ~ .size_menu_block {
+  display: block;
+}
+
+.size_menu_block:hover {
+  display: block;
+}
+
+.size_menu_block {
+  display: none;
+}
+.size_menu_block .size_menu {
+  width: 80px;
+  height: 113px;
+  background-color: #ffffff;
+  list-style-type: none;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+  border: 1px solid rgba(0, 0, 0, 0.21);
   display: flex;
-  align-items: center;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-  color: #6F6E6E;
+  flex-direction: column;
+  padding-left: 4px;
+  padding-top: 10px;
+  margin-top: 0;
+  gap: 6px;
+  position: absolute;
+  top: 15px;
+  left: 42%;
+  z-index: 1000;
+}
+.size_menu_block .size_menu .checkbox {
+  margin-right: 10px;
+  transition: all 0.1s;
+  transition-delay: 0.1s;
+}
+.size_menu_block .size_menu .checkbox:hover {
+  box-shadow: 0 0 2px 2px #EF5B70;
 }
 
 .catalog {
