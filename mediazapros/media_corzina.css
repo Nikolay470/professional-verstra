@@ -1,0 +1,67 @@
+@media (max-width: 1024px) {
+    body {
+        margin: 0;
+    }
+
+    .center {
+        padding-left: calc(50% - 384px);
+        padding-right: calc(50% - 384px);
+    }
+
+    .heder_left {
+        margin-left: 16px;
+    }
+
+    .heder_right {
+        margin-right: 16px;
+    }
+
+    .h1_heder_text {
+        margin-left: 16px;
+    }
+
+    .main {
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .main .zacaz {
+        height: 750px;
+        margin-bottom: 0;
+    }
+
+    .main .main_bottom {
+        margin-bottom: 0;
+    }
+
+    .main .forma {
+        flex-direction: row;
+        width: 736px;
+        justify-content: space-between;
+    }
+
+    .main .forma .input {
+        width: 355px;
+    }
+
+    .main .forma .input:hover {
+        transform: none;
+      }
+
+    .main .forma .forma_raschet {
+        margin-top: 70px;
+        width: 355px;
+    }
+
+    .footer_middle {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 140px;
+        padding-top: 54px;
+    }
+
+    .footer_bottom {
+        padding: 0 32px 0 32px;
+    }
+
+}

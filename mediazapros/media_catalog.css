@@ -1,0 +1,82 @@
+@media (max-width: 1024px) {
+    body {
+        margin: 0;
+    }
+    
+    .center {
+        padding-left: calc(50% - 384px);
+        padding-right: calc(50% - 384px);
+    }
+
+  .heder_left {
+    margin-left: 16px;
+  }
+
+  .heder_right {
+    margin-right: 16px;
+  }
+
+  .h1_top {
+    margin-left: 16px;
+  }
+
+  .top_url {
+    margin-right: 16px;
+  }
+
+  
+
+    .main {
+        height: 20px;
+    }
+
+    .filter {
+        margin-left: 16px;
+        margin-right: 338px;
+    }
+
+    .menu {
+        margin-right: 16px;
+    }
+
+    .catalog {
+        justify-content: center;
+        grid-template-columns: repeat(2, 350px);
+        gap: 16px;   
+        margin-bottom: 40px;
+    }
+
+    .catalog__cartochca {
+        width: 350px;
+    }
+
+    .catalog_img {
+        width: 350px;
+    }
+ 
+    .footer_top {
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        padding-top: 48px;
+        padding-bottom: 64px;
+    }
+
+    .p_footer_top {
+        text-align: center;
+        width: 360px;
+    }
+
+    .footer_middle {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 140px;
+        padding-top: 54px;
+    }
+
+    .footer_bottom {
+        padding: 0 32px 0 32px;
+    }
+
+}
+

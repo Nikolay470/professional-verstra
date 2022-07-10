@@ -1,0 +1,63 @@
+@media (max-width: 1024px) {
+    body {
+        margin: 0;
+    }
+
+    .center {
+        padding-left: calc(50% - 384px);
+        padding-right: calc(50% - 384px);
+    }
+
+    .heder_left {
+        margin-left: 16px;
+    }
+
+    .heder_right {
+        margin-right: 16px;
+    }
+
+    .h1_heder_text {
+        margin-left: 16px;
+    }
+
+    .main {
+        justify-content: space-around;
+    }
+
+    .main .forma {
+        width: 345px;
+    }
+
+    .main .forma .forma_input{
+        width: 340px;
+    }
+
+    .main .forma .forma_input:hover {
+        transform: none;
+      }
+
+    .main .advantage {
+        width: 354px;
+    }
+
+    .main .advantage .advantage_h1,
+    .main .advantage .advantage_p,
+    .main .advantage .advantage_spisok {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+
+    .footer_middle {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 140px;
+        padding-top: 54px;
+    }
+
+    .footer_bottom {
+        padding: 0 32px 0 32px;
+    }
+}
