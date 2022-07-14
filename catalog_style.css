@@ -276,8 +276,6 @@ a {
 }
 
 .catalog {
-  padding-left: calc(50% - 570px);
-  padding-right: calc(50% - 570px);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
