@@ -62,16 +62,13 @@ $colorSyte:  #F16D7F;
 }
 
 .top {
-    padding-left: calc(50% - 800px);
-    padding-right: calc(50% - 800px);
     min-height: 764px;
     display: flex;
     justify-content: center;
     margin-bottom: 65px;
 
-
-    .top_img {
-        max-width: 800px;
+    .top_foto {
+        width: 50%;
     }
 
     .top_content {

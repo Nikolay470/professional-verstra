@@ -1,0 +1,256 @@
+@media (max-width: 1024px) {
+    body {
+        margin: 0;
+    }
+
+    .center {
+        padding-left: calc(50% - 384px);
+        padding-right: calc(50% - 384px);
+    }
+
+    .heder_left {
+        margin-left: 16px;
+    }
+
+    .heder_right {
+        margin-right: 16px;
+    }
+
+    .top_image {
+        width: 368px;
+    }
+
+    .top .top_content {
+        margin-top: 138px;
+    }
+
+    .sale {
+        grid-template-columns: repeat(3, 232px);
+        grid-template-rows: 167px;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .sale_foto {
+        width: 232px;
+    }
+
+    .sale .sale_content1 {
+        top: 59px;
+        left: 39px;
+    }
+
+    .sale .sale_content2 {
+        top: 59px;
+        left: 60px;
+    }
+
+    .sale .sale_content3 {
+        top: 59px;
+        left: 60px;
+    }
+
+    .sale_big {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sale_big_img {
+        width: 735px;
+        height: 116px;
+    }
+
+    .sale_big_foto {
+        width: 735px;
+    }
+
+    .sale_big .sale_content4 {
+        top: 33px;
+        left: 287px;
+        margin-left: 0;
+    }
+
+    .sale .sale_img:hover {
+        transform: none;
+    }
+
+    .sale_big .sale_big_img:hover .sale_big_foto {
+        transform: none;
+    }
+
+    .catalog {
+        justify-content: center;
+        grid-template-columns: repeat(2, 360px);
+        grid-gap: 15px;
+    }
+
+    .footer_top {
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        padding-top: 48px;
+        padding-bottom: 64px;
+    }
+
+    .p_footer_top {
+        text-align: center;
+        width: 360px;
+    }
+
+    .footer_middle {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 140px;
+        padding-top: 54px;
+    }
+
+    .footer_bottom {
+        padding: 0 32px 0 32px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .center {
+        padding-left: calc(50% - 187px);
+        padding-right: calc(50% - 187px);
+    }
+
+    .reg {
+        display: none;
+    }
+
+    .corzina {
+        display: none;
+    }
+
+    .top {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 363px;
+    }
+
+    .top_image {
+        display: none;
+    }
+
+    .top .top_content {
+        margin: 0;
+        width: 75%;
+    }
+
+    .top_h1 {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .sale {
+        grid-template-columns: 330px;
+        grid-template-rows: auto;
+        gap: 30px;
+        padding: 0 16px;
+    }
+
+    .sale .sale_img {
+        height: 237px;
+    }
+
+    .sale .sale_foto {
+        width: 100%;
+    }
+
+    .sale .sale_content1 {
+        top: 98px;
+        left: 87px;
+    }
+
+    .sale .sale_content2 {
+        top: 100px;
+        left: 110px;
+    }
+
+    .sale .sale_content3 {
+        top: 105px;
+        left: 110px;
+    }
+
+    .sale_big {
+        width: 100%;
+        height: 111px;
+        margin-bottom: 95px;
+    }
+
+    .sale_big_img {
+        height: 111px;
+        margin: 0 21px;
+    }
+
+    .sale_big_foto {
+        height: 111px;
+        width: 330px;
+        object-fit: cover;
+    }
+
+    .sale_big .sale_big_img:hover .sale_big_foto {
+        transform: none;
+    }
+
+    .sale_big .sale_content4 {
+        top: 30px;
+        left: 95px;
+    }
+
+    .catalog_content {
+        margin-bottom: 64px;
+    }
+
+    .catalog_content .h2_catalog_content {
+        margin-bottom: 4px;
+    }
+
+    .catalog_content .p_catalog_content {
+        margin-top: 0;
+    }
+
+    .catalog {
+        margin-bottom: 49px;
+        padding: 0 8px;
+        grid-template-columns: 340px;
+    }
+
+    .catalog_img {
+        width: 340px;
+    }
+
+    .text_footer_middle {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .h3_footer_middle {
+        font-size: 14px;
+        font-weight: 550;
+    }
+
+    .footer_pochta {
+        width: 220px;
+    }
+
+    .footer_bottom {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 143px;
+    }
+
+    .spisok_url {
+        margin-top: 45px;
+        margin-bottom: 43px;
+    }
+
+    .prava {
+        margin-bottom: 10px;
+    }
+
+}

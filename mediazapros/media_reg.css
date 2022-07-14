@@ -1,0 +1,145 @@
+@media (max-width: 1024px) {
+    body {
+        margin: 0;
+    }
+
+    .center {
+        padding-left: calc(50% - 384px);
+        padding-right: calc(50% - 384px);
+    }
+
+    .heder_left {
+        margin-left: 16px;
+    }
+
+    .heder_right {
+        margin-right: 16px;
+    }
+
+    .h1_heder_text {
+        margin-left: 16px;
+    }
+
+    .main {
+        justify-content: space-around;
+    }
+
+    .main .forma {
+        width: 345px;
+    }
+
+    .main .forma .forma_input{
+        width: 340px;
+    }
+
+    .main .forma .forma_input:hover {
+        transform: none;
+      }
+
+    .main .advantage {
+        width: 354px;
+    }
+
+    .main .advantage .advantage_h1,
+    .main .advantage .advantage_p,
+    .main .advantage .advantage_spisok {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+
+    .footer_middle {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 140px;
+        padding-top: 54px;
+    }
+
+    .footer_bottom {
+        padding: 0 32px 0 32px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .center {
+        padding-left: calc(50% - 187px);
+        padding-right: calc(50% - 187px);
+    }
+
+    .reg {
+        display: none;
+    }
+
+    .corzina {
+        display: none;
+    }
+
+    .heder_text {
+        display: flex;
+        flex-direction: column;
+        height: 148px;
+        margin-bottom: 0;
+    }
+
+    .h1_heder_text {
+        margin-left: 0;
+        margin-top: 24px;
+    }
+
+    .heder_text_url {
+        margin-right: 0;
+        margin-bottom: 46px;
+    }
+
+    .heder_text .h1_heder_text {
+        margin-top:60px;
+        margin-bottom: 60px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .forma {
+        margin: 0 8px;
+    }
+
+    .advantage {
+        margin: 0 8px;
+        width: 345px;
+    }
+
+    .footer_middle .text_footer_middle {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .footer_middle .h3_footer_middle {
+        font-size: 14px;
+        font-weight: 550;
+    }
+
+    .footer_middle .footer_pochta {
+        width: 220px;
+    }
+
+    .footer_bottom {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 143px;
+    }
+
+    .spisok_url {
+        margin-top: 45px;
+        margin-bottom: 43px;
+    }
+
+    .prava {
+        margin-bottom: 10px;
+    }
+}

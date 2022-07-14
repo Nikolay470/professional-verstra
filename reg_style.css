@@ -40,22 +40,6 @@ a {
     transform: rotate(15deg);
   }
 }
-.main .forma .forma_input {
-  width: 359px;
-  height: 44px;
-  border: 1px solid #A4A4A4;
-  margin-bottom: 20px;
-}
-
-.main .advantage .advantage_h1,
-.main .advantage .advantage_p,
-.main .advantage .advantage_spisok {
-  font-style: normal;
-  font-weight: 300;
-  font-size: 24px;
-  line-height: 29px;
-  color: #000000;
-}
 
 .heder {
   min-height: 75px;
@@ -113,6 +97,10 @@ a {
   gap: 20px;
 }
 .main .forma .forma_input {
+  width: 360px;
+  height: 44px;
+  border: 1px solid #A4A4A4;
+  margin-bottom: 20px;
   transition: all 0.3s;
   transition-delay: 0.1s;
   transition-timing-function: ease-in;
@@ -178,6 +166,15 @@ a {
 .main .advantage .advantage_spisok .spisok_list {
   padding-left: 15px;
   margin-bottom: 16px;
+}
+.main .advantage .advantage_h1,
+.main .advantage .advantage_p,
+.main .advantage .advantage_spisok {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
 }
 
 .footer_fon {
