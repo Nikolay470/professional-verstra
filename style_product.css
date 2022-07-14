@@ -118,17 +118,11 @@ a {
 .top_btn_left {
   display: flex;
   align-items: center;
-  width: 47px;
-  height: 47px;
-  justify-content: center;
 }
 
 .top_btn_right {
   display: flex;
   align-items: center;
-  width: 47px;
-  height: 47px;
-  justify-content: center;
 }
 
 .main_ramca {
@@ -340,11 +334,6 @@ a {
   flex-direction: column;
   align-items: center;
   margin-bottom: 60px;
-}
-
-.video {
-  width: 500px;
-  height: 300px;
 }
 
 .footer_fon {
