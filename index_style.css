@@ -96,6 +96,10 @@ body {
   width: 377px;
 }
 
+.top_h2 span {
+  color:#F16D7F;
+}
+
 .sale {
   gap: 30px;
   display: grid;
@@ -156,12 +160,12 @@ body {
   margin-bottom: 161px;
 }
 
-.sale_big .sale_big_img {
+.sale_big .sale_big_foto {
   transition: all 0.4s;
   transition-delay: 0.2s;
 }
 
-.sale_big .sale_big_img:hover {
+.sale_big .sale_big_img:hover .sale_big_foto {
   box-shadow: 0 0 5px 5px #F16D7F;
   transform: scale(1.1);
 }
